@@ -1,3 +1,5 @@
+import numpy as np 
+
 def add(a, b):
     return a + b
 
@@ -13,4 +15,8 @@ def multiply(a, b):
     return a * b
 
 
-print(add(3, 4))
+def mean(numbers):
+    return np.mean(numbers)
+
+numbers = [1,2,3]
+print(mean(numbers))
